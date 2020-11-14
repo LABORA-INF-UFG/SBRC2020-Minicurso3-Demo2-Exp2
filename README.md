@@ -38,14 +38,14 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
- After, we can clone the **NetSoft2020-Tutorial4-Demo2-Exp2 project**:
+ After, we can clone the **SBRC2020-Minicurso3-Demo2-Exp2 project**:
 ```
 git clone https://github.com/LABORA-INF-UFG/SBRC2020-Minicurso3-Demo2-Exp2.git
 ```
 
 To build the eNB and all 5GC images, use the following command:  
 ```
-sudo docker build -t netsoft2020tutorial4demo2exp2 .
+sudo docker build -t sbrc2020minicurso3demo2exp2 .
 ```
 
 To run the containers, use the following command:
